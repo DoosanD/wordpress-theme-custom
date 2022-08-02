@@ -1,6 +1,7 @@
 <?php
 
 // Adds dynamic title tag support
+//
 add_theme_support('title_tag');
 
 
@@ -13,5 +14,3 @@ function followandrew_register_styles()
 ;
 
 add_action('wp_enqueue_scripts', 'followandrew_register_styles');
-
-?>
